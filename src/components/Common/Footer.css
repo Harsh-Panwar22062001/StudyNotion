@@ -1,0 +1,30 @@
+.love{
+    color: yellow;
+    font-size: 1.2rem;
+    
+}
+
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+ 
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .animated-text {
+    animation: pulse 2s infinite; 
+  }
+  
